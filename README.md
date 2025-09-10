@@ -1,12 +1,12 @@
-# Portfolio Website
+# Site de Portfólio
 
-This repository contains the source code and design references for my personal **portfolio website**.  
-The main goal of this project is to showcase my skills, experience, and projects in a professional and interactive way.
+Este repositório contém o código-fonte e referências de design para o meu **site pessoal de portfólio**.  
+O objetivo principal deste projeto é apresentar minhas habilidades, experiências e projetos de forma profissional e interativa.
 
 ---
 
-## Prototype
+## Protótipo
 
-The design was created in **Figma** and serves as the foundation for the website implementation.  
+O design foi criado no **Figma** e serve como base para a implementação do site.  
 
-![Prototype Screen](prototype/portfolio-prototype.png)
+![Tela do Protótipo](prototipos/portifolio-prototipo.png)
