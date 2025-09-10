@@ -15,4 +15,4 @@ The design was created in **Figma** and serves as the foundation for the website
 
 ## HTML
 
-![Study about HTML](study/HTML-structure.md)
+(study/HTML-structure.md)
