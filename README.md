@@ -1,5 +1,14 @@
-# Portfolio Prototype
+# Portfolio Website
 
-Este é o protótipo do meu portfólio desenvolvido no **Figma**, que servirá de base para a implementação do site.
+This repository contains the source code and design references for my personal **portfolio website**.  
+The main goal of this project is to showcase my skills, experience, and projects in a professional and interactive way.
+
+---
+
+## Prototype
+
+The design was created in **Figma** and serves as the foundation for the website implementation.  
 
 ![Prototype Screen](prototype/portfolio-prototype.png)
+
+---
