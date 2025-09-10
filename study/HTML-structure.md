@@ -1,89 +1,175 @@
-# Principais Tags HTML Utilizadas no Mercado
+# Main HTML Tags Used in the Market
 
-## Estrutura básica
-- `<!DOCTYPE html>` → define que o documento é HTML5.  
-- `<html>` → envolve todo o conteúdo da página.  
-- `<head>` → informações da página (não visíveis), como título, links de CSS/JS.  
-- `<body>` → conteúdo visível da página.  
+# Main HTML Tags Used in the Market
 
----
-
-## Cabeçalho e textos
-- `<h1>` até `<h6>` → títulos, sendo `<h1>` o mais importante.  
-- `<p>` → parágrafo de texto.  
-- `<span>` → para trechos curtos de texto, inline.  
-- `<strong>` / `<b>` → texto em negrito (semântico x visual).  
-- `<em>` / `<i>` → texto em itálico (semântico x visual).  
+## Basic structure
+- `<!DOCTYPE html>` → defines that the document is HTML5.  
+- `<html>` → wraps all the page content.  
+- `<head>` → page information (not visible), such as title, CSS/JS links.  
+- `<body>` → visible page content. 
+- `<!-- -->` → Adds comments to the code, which are not displayed on the page.
 
 ---
 
-## Estrutura de layout
-- `<header>` → cabeçalho da página ou seção.  
-- `<nav>` → área de navegação (menus).  
-- `<main>` → conteúdo principal da página.  
-- `<section>` → bloco temático (ex: "sobre", "serviços").  
-- `<article>` → conteúdo independente (ex: post, notícia).  
-- `<aside>` → conteúdo lateral (ex: barra lateral, anúncios).  
-- `<footer>` → rodapé da página ou seção.  
-- `<div>` → divisão genérica (muito usada para estrutura e estilização).  
+## Headings and text
+- `<h1>` to `<h6>` → headings, with `<h1>` being the most important.  
+- `<p>` → paragraph of text.  
+- `<span>` → short inline text.  
+- `<strong>` / `<b>` → bold text (semantic vs visual).  
+- `<em>` / `<i>` → italic text (semantic vs visual).  
 
 ---
 
-## Mídia
-- `<img>` → imagens.  
-- `<figure>` + `<figcaption>` → imagens com legenda.  
-- `<video>` → vídeos.  
-- `<audio>` → áudios.  
-- `<iframe>` → incorpora outro site (ex: YouTube).  
+## Layout structure
+- `<header>` → header of the page or section.  
+- `<nav>` → navigation area (menus).  
+- `<main>` → main content of the page.  
+- `<section>` → thematic block (e.g., "about", "services").  
+- `<article>` → independent content (e.g., post, article, news).  
+- `<aside>` → side content (e.g., sidebar, ads).  
+- `<footer>` → footer of the page or section.  
+- `<div>` → generic division (widely used for structure and styling).  
 
 ---
 
-## Listas
-- `<ul>` → lista não ordenada (com bolinhas).  
-- `<ol>` → lista ordenada (numerada).  
-- `<li>` → item da lista.  
-- `<dl>` / `<dt>` / `<dd>` → lista de definições (menos usada).  
+## Media
+- `<img>` → images.  
+- `<figure>` + `<figcaption>` → images with captions.  
+- `<video>` → videos.  
+- `<audio>` → audio.  
+- `<iframe>` → embeds another site (e.g., YouTube).  
 
 ---
 
-## Tabelas
-- `<table>` → tabela.  
-- `<tr>` → linha da tabela.  
-- `<td>` → célula (dado).  
-- `<th>` → cabeçalho da tabela.  
-- `<thead>`, `<tbody>`, `<tfoot>` → organização semântica.  
+## Lists
+- `<ul>` → unordered list (with bullets).  
+- `<ol>` → ordered list (numbered).  
+- `<li>` → list item.  
+- `<dl>` / `<dt>` / `<dd>` → definition list (less common).  
 
 ---
 
-## Formulários
-- `<form>` → define um formulário.  
-- `<input>` → campo de entrada (texto, senha, email, checkbox, radio).  
-- `<label>` → rótulo para inputs.  
-- `<textarea>` → campo de texto grande.  
-- `<select>` + `<option>` → listas suspensas.  
-- `<button>` → botão.  
-- `<fieldset>` + `<legend>` → agrupam campos.  
+## Tables
+- `<table>` → table.  
+- `<tr>` → table row.  
+- `<td>` → cell (data).  
+- `<th>` → table header cell.  
+- `<thead>`, `<tbody>`, `<tfoot>` → semantic organization.  
 
 ---
 
-## Links e navegação
-- `<a>` → link (âncora).  
-- `<link>` → importa CSS, ícones, etc. (vai no `<head>`).  
-- `<script>` → adiciona JavaScript.  
+## Forms
+- `<form>` → defines a form.  
+- `<input>` → input field (text, password, email, checkbox, radio).  
+- `<label>` → label for inputs.  
+- `<textarea>` → large text field.  
+- `<select>` + `<option>` → dropdown lists.  
+- `<button>` → button.  
+- `<fieldset>` + `<legend>` → group fields together.  
 
 ---
 
-## Semântica moderna
-Essas tags ajudam **SEO e acessibilidade**:  
+## Links and navigation
+- `<a>` → link (anchor).  
+- `<link>` → imports CSS, icons, etc. (used in `<head>`).  
+- `<script>` → adds JavaScript.  
+
+---
+
+## Modern semantics
+These tags help with **SEO and accessibility**:  
 - `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.  
 
-Elas substituem muito o uso indiscriminado de `<div>`.  
+They replace the excessive use of `<div>`.  
 
 ---
 
-## Mais usadas no mercado
+## Most commonly used in the market
 - **Layout:** `div`, `section`, `main`, `header`, `footer`.  
-- **Formulários:** `form`, `input`, `button`.  
-- **Mídia:** `img`, `figure`.  
-- **Links e navegação:** `a`, `nav`.  
-- **SEO/semântica:** títulos (`h1-h6`) bem estruturados.  
+- **Forms:** `form`, `input`, `button`.  
+- **Media:** `img`, `figure`.  
+- **Links and navigation:** `a`, `nav`.  
+- **SEO/semantics:** well-structured headings (`h1-h6`).  
+
+
+---
+
+## Headings and text
+- `<h1>` to `<h6>` → headings, with `<h1>` being the most important.  
+- `<p>` → paragraph of text.  
+- `<span>` → short inline text.  
+- `<strong>` / `<b>` → bold text (semantic vs visual).  
+- `<em>` / `<i>` → italic text (semantic vs visual).  
+
+---
+
+## Layout structure
+- `<header>` → header of the page or section.  
+- `<nav>` → navigation area (menus).  
+- `<main>` → main content of the page.  
+- `<section>` → thematic block (e.g., "about", "services").  
+- `<article>` → independent content (e.g., post, article, news).  
+- `<aside>` → side content (e.g., sidebar, ads).  
+- `<footer>` → footer of the page or section.  
+- `<div>` → generic division (widely used for structure and styling).  
+
+---
+
+## Media
+- `<img>` → images.  
+- `<figure>` + `<figcaption>` → images with captions.  
+- `<video>` → videos.  
+- `<audio>` → audio.  
+- `<iframe>` → embeds another site (e.g., YouTube).  
+
+---
+
+## Lists
+- `<ul>` → unordered list (with bullets).  
+- `<ol>` → ordered list (numbered).  
+- `<li>` → list item.  
+- `<dl>` / `<dt>` / `<dd>` → definition list (less common).  
+
+---
+
+## Tables
+- `<table>` → table.  
+- `<tr>` → table row.  
+- `<td>` → cell (data).  
+- `<th>` → table header cell.  
+- `<thead>`, `<tbody>`, `<tfoot>` → semantic organization.  
+
+---
+
+## Forms
+- `<form>` → defines a form.  
+- `<input>` → input field (text, password, email, checkbox, radio).  
+- `<label>` → label for inputs.  
+- `<textarea>` → large text field.  
+- `<select>` + `<option>` → dropdown lists.  
+- `<button>` → button.  
+- `<fieldset>` + `<legend>` → group fields together.  
+
+---
+
+## Links and navigation
+- `<a>` → link (anchor).  
+- `<link>` → imports CSS, icons, etc. (used in `<head>`).  
+- `<script>` → adds JavaScript.  
+
+---
+
+## Modern semantics
+These tags help with **SEO and accessibility**:  
+- `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.  
+
+They replace the excessive use of `<div>`.  
+
+---
+
+## Most commonly used in the market
+- **Layout:** `div`, `section`, `main`, `header`, `footer`.  
+- **Forms:** `form`, `input`, `button`.  
+- **Media:** `img`, `figure`.  
+- **Links and navigation:** `a`, `nav`.  
+- **SEO/semantics:** well-structured headings (`h1-h6`).  
