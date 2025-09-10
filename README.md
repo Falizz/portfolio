@@ -10,5 +10,3 @@ The main goal of this project is to showcase my skills, experience, and projects
 The design was created in **Figma** and serves as the foundation for the website implementation.  
 
 ![Prototype Screen](prototype/portfolio-prototype.png)
-
----
