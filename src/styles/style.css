@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #252525;
-    color: #f4eded;
 }
 
 body {
     padding-top: 12vh; /* Espaço para que o Header não cubra o conteúdo */
+    background-color: #252525;
+    color: #f4eded;
 }
 
 section {
@@ -21,25 +21,26 @@ img {
     display: block;
 }   
 
-& h1 {
+h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: 400;
     font-family: "Silkscreen", sans-serif;
 }
 
-& h2 {
+h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 400;
     font-family: "Silkscreen", sans-serif;
 }
 
-& p,a {
+p, a {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1rem;
     font-family: "Roboto", sans-serif;
+    color: inherit;
 }
 
 /* Header Styles */
@@ -55,6 +56,7 @@ img {
     height: 10vh;
     z-index: 1000;
     box-shadow: 0px 4px 4px #78BC61;
+    background-color: #252525;
 }
 
 #main-header h1 {
@@ -85,6 +87,16 @@ img {
 }
 
 /* Body Styles */
+
+#about {
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+.profile-picture {
+    max-width: 40%;
+    object-fit: cover;
+}
 
 .profile-title h1 {
     color: #F3D853;

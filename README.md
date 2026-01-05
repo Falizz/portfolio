@@ -7,8 +7,8 @@ O objetivo principal deste projeto é apresentar minhas habilidades, experiênci
 
 ## Protótipo
 
-O design foi criado no **Figma** e serve como base para a implementação do site.  
+O design foi criado no **Figma** e serve como base para a implementação do site.
 
-![Tela do Protótipo](prototipos/prototipo.png)
+![Tela do Protótipo](prototipos/figma/prototipo.png)
 
 ---
