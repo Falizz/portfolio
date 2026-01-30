@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+
+#main-header {
+    background-color: #252525;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 4px 4px #78BC61;
+    padding: 24px 56px;
+}
+
+#main-header h1 {
+    color: #4DD15A;
+}
+
+#main-header nav {
+    display: flex;
+    gap: 64px;
+}
+
+#main-header nav a {
+    color: #F4EDED;
+}
