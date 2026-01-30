@@ -1,8 +1,29 @@
-/* Importação de fontes */
+/* Importação de fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
 
 /* Global Styles */
+
+:root {
+    --background-color: #252525;
+
+    --text-color: #f4eded;
+
+    --yellow-color: #F3D853;
+    --yellow-dark-color: #E5C110;
+
+    --green-color: #4DD15A;
+    --green-dark-color: #22822C;
+
+    --purple-color: #6D52B7;
+    --purple-dark-color: #3A2A65;
+
+    --font-titulos: 'Silkscreen', sans-serif;
+    --font-texto: 'Roboto', sans-serif;
+
+    --font-regular: 400;
+    --font-bold: 700;
+}
 
 * {
     margin: 0;
@@ -10,11 +31,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 7.5rem; 
+    scroll-behavior: smooth;
+}
+
 /* Estilização do Body */
 
 body {
-    background-color: #252525;
-    color: #f4eded;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+section {
+    
 }
 
 #body-content {
@@ -22,30 +52,113 @@ body {
 }
 
 h1 {
-    font-family: 'Silkscreen', sans-serif;
-    font-weight: 400;
+    font-family: var(--font-titulos);
+    font-weight: var(--font-regular);
     font-style: normal;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 h2 {
-    font-family: 'Silkscreen', sans-serif;
-    font-weight: 700;
+    font-family: var(--font-titulos);
+    font-weight: var(--font-bold);
     font-style: normal;
-    font-size: 28px;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-family: var(--font-titulos);
+    font-weight: var(--font-regular);
+    font-style: normal;
+    font-size: 1.25rem;
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-family: var(--font-texto);
+    font-weight: var(--font-bold);
     font-style: normal;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: var(--font-texto);
+    font-weight: var(--font-regular);
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+/* Estilização do Header */
+
+#main-header {
+    background-color: var(--background-color);
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 4px 4px var(--green-dark-color);
+    padding: 24px 56px;
+}
+
+#main-header h1 {
+    color: var(--green-color);
+}
+
+#main-header nav {
+    display: flex;
+    gap: 64px;
+}
+
+#main-header nav a {
+    color: var(--text-color);
+}
+
+/* Estilização da seção About */
+
+#about {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 40px;
+    padding-top: 0;
+}
+
+.profile-picture {
+    width: 40%;
+}
+
+.profile-picture img {
+    box-sizing: border-box;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    max-height: 640xp;
+}
+
+.profile-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+    min-height: 440px;
+}
+
+.profile-content h2 {
+    color: var(--yellow-color);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Estilização da seção Experience */
+
+#experience h2 {
+    color: var(--green-color);
+    
 }
