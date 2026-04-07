@@ -118,15 +118,15 @@ p {
 
 #about {
     display: flex;
-    gap: 48px;
+    gap: 2%;
     justify-content: space-between;
     width: 100%;
-    padding: 40px 40px;
+    padding: 2%;
     padding-top: 0;
 }
 
 .profile-picture {
-    width: 40%;
+    width: 30%;
 }
 
 .profile-picture img {
@@ -134,11 +134,11 @@ p {
     border-radius: 10px;
     object-fit: cover;
     width: 100%;
-    max-height: 640xp;
+    max-height: 30rem;
 }
 
 .profile-content {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -158,7 +158,52 @@ p {
 
 /* Estilização da seção Experience */
 
-#experience h2 {
+#experience {
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.experience-title {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.experience-title-decoration {
+    background-color: var(--green-color);
+    width:80%;
+    height: 1.5rem;
+    border-end-end-radius: 16px;
+    border-start-end-radius: 16px;
+}
+
+.experience-title h2 {
     color: var(--green-color);
-    
+}
+
+#experience-content{
+    align-items: center;
+    padding-left: 2rem;
+}   
+
+.experience-info {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.experience-group {
+    width: 50%;
+    gap: 5rem;
+}
+
+.experience-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
