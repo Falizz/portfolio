@@ -1,0 +1,24 @@
+#main-header {
+    background-color: var(--background-color);
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 4px 4px var(--green-dark-color);
+    padding: 24px 56px;
+}
+
+#main-header h1 {
+    color: var(--green-color);
+}
+
+#main-header nav {
+    display: flex;
+    gap: 64px;
+}
+
+#main-header nav a {
+    color: var(--text-color);
+}
