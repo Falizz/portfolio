@@ -85,3 +85,7 @@ p {
     font-style: normal;
     font-size: 1.25rem;
 }
+
+section {
+    margin: 2em 0;
+}
